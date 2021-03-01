@@ -1,0 +1,131 @@
+body {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.alert-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding : 5px 15px
+
+}
+
+.container-fluid {
+    padding 0;
+}
+
+.callout-container {
+    height: 100vh;
+
+    background: url(../images/whiskey-background.jpg) no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.quotes-container {}
+
+.features-container {}
+
+
+/*navbar styling*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: :0; 
+    border: 0; 
+    width: 100%; 
+    color: rgba(0,0,0,0.25);  
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler {
+    border:0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #dcb128;
+    border-color: #dcb128;
+}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #e66565;
+}
+
+.jumbotron small {
+    color: white;
+    font-size: 60%;
+    font-style: italic;
+}
+
+.block-dividers {
+    width: 75px;
+    height: 5px;
+    border: none;
+    background-color: #d66426;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+/*buttons*/
+
+.btn-cta {
+    width: 160px;
+    background-color: #e66565;
+    color: white;
+    border-color: #e66565;
+}
+
+.btn-cta:active, .btn-cta:hover, .btn-cta:focus, .btn-cta:active:focus {
+    background-color: #e61b1b;
+    border-color: #e61b1b;
+    color: white;
+}
